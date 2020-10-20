@@ -1,0 +1,9 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "aws-lambda-sam-template-app"
+s3_bucket = "serverless-template-app-artifacts-015272024909"
+s3_prefix = "aws-lambda-sam-template-app"
+region = "ap-southeast-1"
+capabilities = "CAPABILITY_IAM"
